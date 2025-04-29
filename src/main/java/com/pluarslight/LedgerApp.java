@@ -27,6 +27,7 @@ public class LedgerApp {
                     break;
                 case "P":
                     // Calling make payment method
+                    makePayment(scanner);
                     break;
                 case "L":
                     // Calling view ledger method
@@ -66,6 +67,35 @@ public class LedgerApp {
             System.out.println("Deposit saved successfully!");
         }
 
+    public static void makePayment(Scanner scanner) {
+        System.out.println("=== Make a Payment ===");
+
+        System.out.print("Enter description: ");
+        String description = scanner.nextLine();
+
+        System.out.print("Enter vendor: ");
+        String vendor = scanner.nextLine();
+
+        System.out.print("Enter amount: ");
+        double amount = Double.parseDouble(scanner.nextLine());
+
+        if (amount > 0) {
+            amount = -amount; // payments should be NEGATIVE
+        }
+
+        //using  transaction object to send payment info
+        Transaction payment = new Transaction(
+                LocalDate.now().toString(),
+                LocalTime.now().withNano(0).toString(),
+                description,
+                vendor,
+                amount
+        );
+
+        TransactionService.saveTransaction(payment);
+
+        System.out.println("Payment recorded successfully!");
+    }
 
 
 }

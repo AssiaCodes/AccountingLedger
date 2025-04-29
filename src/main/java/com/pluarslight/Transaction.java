@@ -1,12 +1,14 @@
 package com.pluarslight;
 
+//Initialize the class Transaction
 public class Transaction {
+    // Crating private variables
     private String date;
     private String time;
     private String description;
     private String vendor;
     private double amount;
-
+//Creating class constructor with parameters
     public Transaction(String date, String time, String description, String vendor, double amount) {
         this.date = date;
         this.time = time;

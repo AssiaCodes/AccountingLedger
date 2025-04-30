@@ -64,14 +64,37 @@ One interesting part of this project is how deposit method is used to add to the
 
 Screenshots 
 
-Home Screen --> ![1](https://github.com/user-attachments/assets/dfbcef8c-4b0c-4aff-8ff3-d6ef476f4692)
+Home Screen
+![1](https://github.com/user-attachments/assets/dfbcef8c-4b0c-4aff-8ff3-d6ef476f4692)
+
+Add deposit
+![2](https://github.com/user-attachments/assets/eec043dc-0c09-44b1-bdd6-4e78e09217f5)
+
+
+Add payment
+
+![3](https://github.com/user-attachments/assets/6bc57cb6-cbe9-447f-b2af-2cb07213ec98)
 
 
 Ledger View
 
+![4](https://github.com/user-attachments/assets/6adae685-f5ae-4c54-bdac-bd5dc20f9033)
+
+
+Deposits only & payments only view
+
+![5](https://github.com/user-attachments/assets/4e120c72-a57f-47b2-9ef5-7d98d0b7ace7)
+
+
 Reports Menu
 
+![6](https://github.com/user-attachments/assets/9e553c15-0ea8-4b93-a72e-cbc29448f03f)
+
+
 Vendor Search Result
+
+![7](https://github.com/user-attachments/assets/874ee00f-5699-4988-aaa3-450e33bfa3ad)
+
 
 How to Run
 

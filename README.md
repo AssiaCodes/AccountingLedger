@@ -33,8 +33,9 @@ Features
 All transactions saved to transactions.csv
 
 
-Example Code Highlight
-One interesting part of this project is how deposit method is used to add to the transaction.csv file:
+Example Code Highlight:
+
+One interesting part of this project is how deposit method is used to add to the transaction.csv file: This demonstrates basic but effective use of scanner to get user input and add that with date and time to the transaction table.
 
 
         public static void addDeposit(Scanner scanner) {
@@ -60,7 +61,6 @@ One interesting part of this project is how deposit method is used to add to the
 
             System.out.println("Deposit saved successfully!");
         }
-This demonstrates basic but effective use of scanner to get user input and add that with date and time.
 
 Screenshots 
 

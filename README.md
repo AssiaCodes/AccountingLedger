@@ -37,7 +37,7 @@ Example Code Highlight
 One interesting part of this project is how deposit method is used to add to the transaction.csv file:
 
 
-public static void addDeposit(Scanner scanner) {
+        public static void addDeposit(Scanner scanner) {
             System.out.println("Enter description: ");
             String description = scanner.nextLine();
 
